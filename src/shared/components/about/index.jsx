@@ -22,19 +22,20 @@ export const AboutComponent = () => {
           <Img src={photo} alt="Matheus Fellipi Ribeiro de Oliveira" />
         </div>
         <p>Matheus Fellipi Ribeiro de Oliveira</p>
+        <p>26 anos</p>
         <p>Brasileiro</p>
         <Ul>
           {REDESOCIAL.map((item) => (
-             <li key={item.url}>
-             <a href={item.url}>
-               <img src={item.icon} alt="" />
-             </a>
-           </li>
+            <li key={item.url}>
+              <a href={item.url}>
+                <img src={item.icon} alt="" />
+              </a>
+            </li>
           ))}
         </Ul>
       </Section>
       <Section>
-        <h4>Sobre mim</h4>
+        <h3>Sobre mim</h3>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
           autem eveniet, nemo provident repellat illum ratione cumque
@@ -42,10 +43,9 @@ export const AboutComponent = () => {
           corrupti dolorum quam iure!
         </p>
 
-        <h6>Hobies</h6>
-        <ul>
-          <li></li>
-        </ul>
+        <h4>Hobies</h4>
+        <p>Desenhar | ler | assistir | jogar | rpg de mesa </p>
+
       </Section>
     </>
   );
