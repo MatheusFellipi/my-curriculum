@@ -28,6 +28,7 @@ export const Ul = styled.ul`
   display: flex;
   list-style: none;
   li {
+    cursor: pointer;
     margin: 0.2rem;
   }
   img {

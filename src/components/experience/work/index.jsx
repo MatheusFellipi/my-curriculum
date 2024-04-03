@@ -1,12 +1,13 @@
 import { Section, Ul } from "./styles";
-import suitcase from "../../../assets/svg/suitcase-svgrepo-com.svg";
-import { getData } from "../../../services/api/workExperience/mock";
+import suitcase from "@/assets/svg/suitcase-svgrepo-com.svg";
 import { useState } from "react";
 import { format } from "date-fns";
 import ptBR from "date-fns/locale/pt-BR";
+import { getDataWorks } from "../const";
 
-export const WorkExperienceComponent = () => {
-  const [data] = useState(getData());
+export const WorksComponent = () => {
+  const [data] = useState(getDataWorks())
+  
 
   return (
     <Section>

@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   margin: 1rem;
-  width: 70%;
-
   img {
     width: 40px;
   }
@@ -13,12 +11,17 @@ export const Section = styled.section`
   }
   border: 1px solid #585858;
   padding: 20px;
+
+  min-width: 20%;
 `;
 
 export const Ul = styled.ul`
+  display: flex;
+  list-style: none;
   li {
-    margin-top: 4rem;
+    margin: 0.2rem;
     position: relative;
+
     div {
       position: absolute;
       background: #181A1B;
@@ -26,15 +29,20 @@ export const Ul = styled.ul`
       height: 20px;
       border-radius: 50px;
       border: 2px solid #585858;
-      top: 0px;
+      top: 15px;
       left: -34px;
     }
+
+    span {
+      font-size: 12px;
+    }
+
     p {
-      margin: 1rem 0 1rem 0;
-      text-transform: capitalize;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
     }
-    p.description {
-      color: #bdb7af;
-    }
+  }
+  img {
+    width: 25px;
   }
 `;

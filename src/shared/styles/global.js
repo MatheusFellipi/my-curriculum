@@ -21,10 +21,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea, button{
-    font-family: "Poppins",sans-serif;
     font-weight: 400;
+    font-family: "Roboto Mono", monospace;
     color: #F8F0F1;
-
   }
   
   h1, h2, h3, h4, h5, h6, strong{
@@ -41,9 +40,24 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none; 
+    text-decoration-style: none; 
+    text-decoration-color: none;
+    color: #fff
+  }
+
+
   [disabled]{
     opacity: 0.6;
     cursor: not-allowed;
   }
 
+.icon{
+  width: 25px;
+}
 `;

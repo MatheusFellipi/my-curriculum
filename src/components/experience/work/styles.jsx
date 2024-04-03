@@ -15,33 +15,25 @@ export const Section = styled.section`
 `;
 
 export const Ul = styled.ul`
-  display: flex;
-  list-style: none;
   li {
-    margin: 0.2rem;
+    margin-top: 4rem;
     position: relative;
-
     div {
       position: absolute;
-      background: #181A1B;
+      background: #181a1b;
       width: 20px;
       height: 20px;
       border-radius: 50px;
       border: 2px solid #585858;
-      top: 15px;
+      top: 0px;
       left: -34px;
     }
-
-    span {
-      font-size: 12px;
-    }
-
     p {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin: 1rem 0 1rem 0;
+      text-transform: capitalize;
     }
-  }
-  img {
-    width: 25px;
+    p.description {
+      color: #bdb7af;
+    }
   }
 `;

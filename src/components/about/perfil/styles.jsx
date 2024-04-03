@@ -1,15 +1,7 @@
 import styled from "styled-components";
 
-export const Wrap = styled.div`
-  display: flex;
-
-  @media only screen and (max-width: 320px) {
-    flex-direction: column;
-  }
-`;
-
 export const Img = styled.img`
-  border-radius: 1250px;
+  border-radius: 250px;
   width: 250px;
   border: 1rem solid #252525;
 `;
@@ -26,28 +18,19 @@ export const Section = styled.section`
   border: 1px solid #585858;
   padding: 10px;
   margin: 1rem;
+
   p {
     color: #bdb7af;
-    margin-top: 1rem;
+    margin-top: 10px;
     margin-bottom: 1rem;
   }
-
+  a {
+    color: #bdb7af;
+  }
   div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
-  }
-`;
-
-export const Ul = styled.ul`
-  display: flex;
-  list-style: none;
-  li {
-    margin: 0.2rem;
-  }
-  img {
-    width: 25px;
   }
 `;
