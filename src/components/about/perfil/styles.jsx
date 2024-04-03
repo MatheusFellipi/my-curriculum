@@ -1,0 +1,53 @@
+import styled from "styled-components";
+
+export const Wrap = styled.div`
+  display: flex;
+
+  @media only screen and (max-width: 320px) {
+    flex-direction: column;
+  }
+`;
+
+export const Img = styled.img`
+  border-radius: 1250px;
+  width: 250px;
+  border: 1rem solid #252525;
+`;
+
+export const Section = styled.section`
+  background-image: repeating-linear-gradient(
+    35deg,
+    transparent,
+    transparent 4px,
+    #585858 1px,
+    #000 5px
+  );
+
+  border: 1px solid #585858;
+  padding: 10px;
+  margin: 1rem;
+  p {
+    color: #bdb7af;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+`;
+
+export const Ul = styled.ul`
+  display: flex;
+  list-style: none;
+  li {
+    margin: 0.2rem;
+  }
+  img {
+    width: 25px;
+  }
+`;
