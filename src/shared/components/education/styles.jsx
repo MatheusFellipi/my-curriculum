@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
+  margin: 1rem;
+
   img {
     width: 40px;
   }
@@ -21,11 +23,11 @@ export const Ul = styled.ul`
 
     div {
       position: absolute;
-      background: #000;
+      background: #181A1B;
       width: 20px;
       height: 20px;
       border-radius: 50px;
-      border: 2px solid;
+      border: 2px solid #585858;
       top: 15px;
       left: -34px;
     }
