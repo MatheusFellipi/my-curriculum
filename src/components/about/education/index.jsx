@@ -1,5 +1,5 @@
 import { Section, Ul } from "./styles";
-import lamp4 from "../../../assets/svg/lamp4-svgrepo-com.svg";
+import lamp4 from "@/assets/svg/lamp4-svgrepo-com.svg";
 
 export const EducationComponent = () => {
   return (

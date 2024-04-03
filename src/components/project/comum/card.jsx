@@ -29,8 +29,8 @@ export const Ul = styled.ul`
     img {
       position: absolute;
       opacity: 0;
-      width: 100%;
-      height: 100%;
+      width: 50%;
+      height: 50%;
       object-fit: cover;
     }
 

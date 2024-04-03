@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   margin: 1rem;
-
+  border: 1px solid #585858;
+  padding: 20px;
+  min-width: 25%;
   img {
     width: 40px;
   }
@@ -10,8 +12,6 @@ export const Section = styled.section`
     text-transform: uppercase;
     margin-bottom: 3rem;
   }
-  border: 1px solid #585858;
-  padding: 20px;
 `;
 
 export const Ul = styled.ul`
