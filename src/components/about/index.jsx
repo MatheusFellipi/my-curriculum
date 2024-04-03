@@ -1,7 +1,7 @@
-import styled from "styled-components";
 import { AboutPerfilComponent } from "./perfil";
 import { AboutComponent } from "./info";
 import { EducationComponent } from "./education";
+import { Wrap } from "@/shared/styles/containers";
 
 export const AboutPageComponent = () => (
   <Wrap>
@@ -11,10 +11,3 @@ export const AboutPageComponent = () => (
   </Wrap>
 );
 
-export const Wrap = styled.div`
-  display: flex;
-
-  @media only screen and (max-width: 320px) {
-    flex-direction: column;
-  }
-`;

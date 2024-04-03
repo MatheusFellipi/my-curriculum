@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import { Wrap } from "@/shared/styles/containers";
 import { WorksComponent } from "./work";
 import { SkillComponent } from "./skils";
 
@@ -10,10 +10,3 @@ export const ExperiencePageComponent = () => {
     </Wrap>
   );
 };
-export const Wrap = styled.div`
-  display: flex;
-
-  @media only screen and (max-width: 560px) {
-    flex-direction: column;
-  }
-`;

@@ -10,7 +10,7 @@ function App() {
       }}
     >
       <AboutPageComponent />
-      <ExperiencePageComponent/>
+      <ExperiencePageComponent />
       <ProjectPageComponent />
     </div>
   );

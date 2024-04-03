@@ -1,6 +1,6 @@
-import styled from "styled-components";
 import { FinishedComponent } from "./finished";
 import { ProgressComponent } from "./progress";
+import { Wrap } from "@/shared/styles/containers";
 
 export const ProjectPageComponent = () => (
   <Wrap>
@@ -9,10 +9,3 @@ export const ProjectPageComponent = () => (
   </Wrap>
 );
 
-export const Wrap = styled.div`
-  display: flex;
-
-  @media only screen and (max-width: 560px) {
-    flex-direction: column;
-  }
-`;
