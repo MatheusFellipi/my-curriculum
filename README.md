@@ -3,6 +3,10 @@
 - React
 - Vite
 
+## hospedado
+
+- [Currículo](http://matheuscv.s3-website-us-east-1.amazonaws.com/)
+
 ## Requesitos 
 - [node / npm](https://nodejs.org/en)
 - [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
