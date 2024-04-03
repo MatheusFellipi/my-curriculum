@@ -1,5 +1,5 @@
-import { Img, Section, Ul } from "./styles";
-import photo from "../../../assets/img/foto.jpeg";
+import { Img, Section, Ul, Wrap } from "./styles";
+import photo from "../../../assets/img/mt-photo.jpeg";
 import linkdin from "../../../assets/svg/linkedin-svgrepo-com.svg";
 import github from "../../../assets/svg/github-svgrepo-com.svg";
 
@@ -16,14 +16,30 @@ export const AboutComponent = () => {
   ];
 
   return (
-    <>
+    <Wrap>
       <Section>
         <div>
           <Img src={photo} alt="Matheus Fellipi Ribeiro de Oliveira" />
         </div>
         <p>Matheus Fellipi Ribeiro de Oliveira</p>
-        <p>26 anos</p>
-        <p>Brasileiro</p>
+      </Section>
+      <Section>
+        <h3>Sobre mim</h3>
+        <p className="description">
+          Desenvolvedor front end com mais de três anos de experiência na
+          criação de interfaces visuais usando tecnologias React.js/React
+          Native. Comprometido em fornecer código de alta qualidade usando
+          soluções de Design System, typescript, IHC(Interação
+          Humano-Computador) com foco em Experiência do Usuário (UX). Hábil na
+          resolução de problemas. Busco melhorar continuamente meu conhecimento
+          técnico para permanecer na vanguarda das tendências do setor. Na
+          posição de desenvolvedor front-end busco utilizar minha experiência
+          para a criação de sites visualmente atraentes e funcionais
+        </p>
+
+        <h4>Hobies</h4>
+        <p>Desenhar | ler | assistir | jogar | rpg de mesa </p>
+
         <Ul>
           {REDESOCIAL.map((item) => (
             <li key={item.url}>
@@ -34,19 +50,6 @@ export const AboutComponent = () => {
           ))}
         </Ul>
       </Section>
-      <Section>
-        <h3>Sobre mim</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          autem eveniet, nemo provident repellat illum ratione cumque
-          voluptatibus sequi ad culpa aut. Quidem, possimus incidunt rerum
-          corrupti dolorum quam iure!
-        </p>
-
-        <h4>Hobies</h4>
-        <p>Desenhar | ler | assistir | jogar | rpg de mesa </p>
-
-      </Section>
-    </>
+    </Wrap>
   );
 };

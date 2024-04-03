@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const Wrap = styled.div`
+  display: flex;
+
+  @media only screen and (max-width: 320px) {
+    flex-direction: column;
+  }
+`;
+
 export const Img = styled.img`
   border-radius: 1250px;
   width: 250px;
@@ -9,12 +17,13 @@ export const Img = styled.img`
 export const Section = styled.section`
   border: 1px solid #585858;
   padding: 10px;
-  margin-top: 1rem;
-  max-height: 500px;
+  margin: 1rem;
   p {
+    color: #bdb7af;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
   div {
     display: flex;
     flex-direction: column;
